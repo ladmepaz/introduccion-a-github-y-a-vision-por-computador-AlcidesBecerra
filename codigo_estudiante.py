@@ -25,7 +25,7 @@ def leer_imagen(ruta_imagen):
         
     return img
 
-image = leer_imagen(r"c:\Users\becer\OneDrive\Documents\GitHub\introduccion-a-github-y-a-vision-por-computador-AlcidesBecerra\data\imagen0.png")
+image = leer_imagen("data/imagen0.png")
 image.show()
 
 def obtener_info_imagen(img):
